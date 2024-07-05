@@ -6,7 +6,7 @@ Module for a type-annotated function zoom_array that zooms into a tuple array.
 
 from typing import Tuple, List, Any
 
-def zoom_array(lst: Tuple[Any], factor: int = 2) -> Tuple[Any]:
+def zoom_array(lst: Tuple[Any,...], factor: int = 2) -> Tuple[Any,...]:
     """
     Zooms into a tuple array by repeating each element by a given factor.
 
